@@ -6,6 +6,9 @@ beginner-friendly explanations and real-world use cases in every file.
 Folders are numbered from **basic to advanced**, and the files inside each folder are numbered
 in the recommended reading order.
 
+For a big data scenario showing *why* and *how* each algorithm is used, see
+[USE_CASES.md](USE_CASES.md).
+
 ## How to run
 
 Everything uses only the Python standard library, so there is nothing to install.
