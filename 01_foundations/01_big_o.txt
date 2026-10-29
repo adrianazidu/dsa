@@ -1,0 +1,28 @@
+n = 1000
+
+total = n * (n + 1) / 2
+print(total)
+
+If an algorithm has the time complexity of O(n),
+
+It takes 5 steps for an input of 5
+It takes 10 steps for an input of 10
+
+Time complexity is about the number of steps required, and not execution time on a specific device!
+
+When analyzing an algorithm, we consider three possible scenarios:
+
+Best Case: The algorithm performs with the least possible number of steps.
+Average Case: The algorithm performs with the average number of steps.
+Worst Case: The algorithm performs with the maximum possible number of steps.
+
+Typically, since we don't know where our element might be, the best practice for calculating time complexity is to use the worst-case analysis.
+
+Asymptotic notations are the mathematical notations used to describe the running time of an algorithm when the input tends towards a particular value or a limiting value.
+
+There are mainly three asymptotic notations:
+
+Big-O notation - Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the worst-case complexity of an algorithm.
+Omega notation - Omega notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm.
+Theta notation - Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, 
+		it is used for analyzing the average-case complexity of an algorithm.
